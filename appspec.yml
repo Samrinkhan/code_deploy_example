@@ -23,6 +23,5 @@ hooks:
 artifacts:
   files:
     - '**/*'
-  base-directory: base_dir
   name: builtartifact
   discard-paths: no

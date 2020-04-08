@@ -20,8 +20,3 @@ hooks:
    AfterInstall:
     - location: scripts/restartapache.sh
       runas: root
-artifacts:
-  files:
-    - '**/*'
-  name: builtartifact
-  discard-paths: no
